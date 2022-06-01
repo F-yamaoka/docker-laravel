@@ -25,6 +25,9 @@
     php artisan key:generate
     $ docker compose up -d
 
+### react 
+docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app react-sample"
+
 ## 参考
 docker laravel(https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4)
 npm installが動かない(https://qiita.com/naoki-haba/items/070765f61bc1c5c84114)
