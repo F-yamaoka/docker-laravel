@@ -18,11 +18,14 @@
 
     $ git clone git@github.com:F-yamaoka/docker-laravel.git
     $ cd docker-laravel
+    $ docker compose build
+    $ docker compose up -d
     $ docker compose exec app bash
     chmod -R 777 storage bootstrap/cache
     composer install
     cp .env.example .env
     php artisan key:generate
+    
     $ docker compose up -d
 
 ## 参考
