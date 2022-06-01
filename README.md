@@ -32,6 +32,8 @@
 docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app react-sample"
 
 ## 参考
-docker laravel(https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4)
-npm installが動かない(https://qiita.com/naoki-haba/items/070765f61bc1c5c84114)
-node アップデートLinux(https://mebee.info/2019/10/12/post-1793/)
+<ul>
+<li>docker laravel(https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4)</li>
+<li>npm installが動かない(https://qiita.com/naoki-haba/items/070765f61bc1c5c84114)</li>
+<li>node アップデートLinux(https://mebee.info/2019/10/12/post-1793/)</li>
+</ul>
