@@ -12,3 +12,14 @@
 <li>そのソースをGITで管理する</li>
 <li>アプリケーションの単体テストをPHPUNITで作成しテストを行う</li>
 <li>UIをReactで作成</li>
+</ol>
+<div style="border: 3px double border-radius:5px;">
+$ git clone git@github.com:F-yamaoka/docker-laravel.git
+$ cd docker-laravel
+$ docker compose exec app bash
+chmod -R 777 storage bootstrap/cache
+composer install
+cp .env.example .env
+php artisan key:generate
+$ docker compose up -d
+</div>
