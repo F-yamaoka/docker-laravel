@@ -24,3 +24,8 @@
     cp .env.example .env
     php artisan key:generate
     $ docker compose up -d
+
+## 参考
+docker laravel(https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4)
+npm installが動かない(https://qiita.com/naoki-haba/items/070765f61bc1c5c84114)
+node アップデートLinux(https://mebee.info/2019/10/12/post-1793/)
