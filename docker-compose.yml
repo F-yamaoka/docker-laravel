@@ -4,8 +4,9 @@ services:
     build: ./infra/php
     volumes:
       - ./src:/data
+    user: "${UID_GID}"
 
-  # WEB
+  # WEBa
   web:
     image: nginx:1.20-alpine
     ports:
